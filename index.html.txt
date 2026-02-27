@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>WickraD | Portfolio</title>
+    <link rel="stylesheet" href="style.css">
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;600;700&display=swap" rel="stylesheet">
+</head>
+<body>
+
+    <nav class="navbar">
+        <div class="logo">Wickra<span>D</span></div>
+        <ul class="nav-links">
+            <li><a href="#home">Home</a></li>
+            <li><a href="#about">About</a></li>
+            <li><a href="#projects">Projects</a></li>
+            <li><a href="#contact">Contact</a></li>
+        </ul>
+        <div class="menu-toggle" id="mobile-menu">
+            <span class="bar"></span>
+            <span class="bar"></span>
+            <span class="bar"></span>
+        </div>
+    </nav>
+
+    <section id="home" class="hero">
+        <div class="hero-content">
+            <h1>Hi, I'm <span class="highlight">WickraD</span></h1>
+            <p>A Full-Stack Developer crafting modern digital experiences.</p>
+            <a href="#projects" class="btn">View My Work</a>
+        </div>
+    </section>
+
+    <section id="about" class="about">
+        <h2>About Me</h2>
+        <p>මම නවීන තාක්ෂණය භාවිතා කරමින් නිර්මාණශීලී වෙබ් අඩවි සහ මෘදුකාංග නිර්මාණය කරන අයෙක්මි. පිරිසිදු කේතනය (Clean Code) සහ පරිශීලක හිතකාමී අතුරුමුහුණත් (User Experience) සැකසීම මගේ ප්‍රධාන අරමුණයි.</p>
+    </section>
+
+    <section id="projects" class="projects">
+        <h2>My Projects</h2>
+        <div class="project-grid">
+            <div class="project-card">
+                <h3>Project One</h3>
+                <p>A high-performance E-commerce solution built with modern web tools.</p>
+                <a href="#" class="btn-sm">Case Study</a>
+            </div>
+            <div class="project-card">
+                <h3>Project Two</h3>
+                <p>Interactive dashboard for real-time data visualization and analytics.</p>
+                <a href="#" class="btn-sm">Case Study</a>
+            </div>
+            <div class="project-card">
+                <h3>Project Three</h3>
+                <p>A minimalist weather application using public APIs and JavaScript.</p>
+                <a href="#" class="btn-sm">Case Study</a>
+            </div>
+        </div>
+    </section>
+
+    <section id="contact" class="contact">
+        <h2>Get In Touch</h2>
+        <form id="contact-form">
+            <input type="text" placeholder="Name" required>
+            <input type="email" placeholder="Email" required>
+            <textarea placeholder="Message" rows="5" required></textarea>
+            <button type="submit" class="btn">Send Message</button>
+        </form>
+    </section>
+
+    <footer>
+        <p>&copy; 2026 WickraD. All rights reserved.</p>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+</html>
